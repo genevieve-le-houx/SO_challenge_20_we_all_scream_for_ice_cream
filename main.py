@@ -28,7 +28,7 @@ def compute_tubs_needed(people_per_ice_cream_flavor: dict[str, int]) -> dict[str
 
 
 def main():
-    data_s1 = read_file(Path("challenge_20_s2.txt"))
+    data_s1 = read_file(Path("challenge_20_s1.txt"))
     tubs_s1 = compute_tubs_needed(data_s1)
     print("Scenario 1")
     print(tubs_s1)
